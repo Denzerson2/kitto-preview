@@ -1,0 +1,23 @@
+{
+  "name": "Kitto Gece",
+  "short_name": "Kitto Gece",
+  "description": "Çocuğun dünyası, ailenin içinde.",
+  "start_url": "/kitto-preview/gece/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#141C36",
+  "theme_color": "#1F2A4C",
+  "icons": [
+    {
+      "src": "/kitto-preview/gece/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/kitto-preview/gece/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

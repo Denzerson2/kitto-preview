@@ -1,0 +1,23 @@
+{
+  "name": "Kitto Zarif",
+  "short_name": "Kitto Zarif",
+  "description": "Çocuğun dünyası, ailenin içinde.",
+  "start_url": "/kitto-preview/zarif/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F5EFE3",
+  "theme_color": "#FFFFFF",
+  "icons": [
+    {
+      "src": "/kitto-preview/zarif/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/kitto-preview/zarif/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

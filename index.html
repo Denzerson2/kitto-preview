@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Kitto — üç tasarım</title>
+<meta name="theme-color" content="#16225C" />
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; min-height: 100vh; display: flex; align-items: center; justify-content: center;
+    padding: 32px 20px; background: #0E1119; color: #E9ECF5;
+    font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  }
+  main { width: 100%; max-width: 460px; }
+  h1 { font-size: 26px; margin: 0 0 6px; letter-spacing: -0.4px; }
+  p.lead { margin: 0 0 26px; color: #8993A8; font-size: 14.5px; }
+  .card {
+    display: block; text-decoration: none; color: inherit;
+    padding: 18px 20px; margin-bottom: 12px; border-radius: 16px;
+    background: #181D29; border: 1px solid #2A3140;
+    transition: border-color .15s ease, transform .15s ease;
+  }
+  .card:hover { border-color: #4A566E; transform: translateY(-1px); }
+  .sw { display: flex; gap: 4px; margin-bottom: 10px; }
+  .sw i { width: 16px; height: 16px; border-radius: 5px; display: block;
+          box-shadow: inset 0 0 0 1px rgba(255,255,255,.12); }
+  strong { display: block; font-size: 17px; }
+  .note { color: #8993A8; font-size: 13.5px; }
+  .hint { margin-top: 22px; color: #6C7689; font-size: 12.5px; line-height: 1.6; }
+</style>
+</head>
+<body>
+  <main>
+    <h1>Kitto</h1>
+    <p class="lead">Üç tasarım yönü. Birini açın, ardından Paylaş → Ana Ekrana Ekle.</p>
+
+    <a class="card" href="./oyun/">
+      <span class="sw"><i style="background:#16225C"></i><i style="background:#139A94"></i><i style="background:#FBA220"></i></span>
+      <strong>Oyun</strong>
+      <span class="note">Yuvarlak, sıcak, çocuk dostu.</span>
+    </a>
+    <a class="card" href="./gece/">
+      <span class="sw"><i style="background:#1F2A4C"></i><i style="background:#93A0FF"></i><i style="background:#4DF0D7"></i></span>
+      <strong>Gece</strong>
+      <span class="note">Koyu, ışıltılı, akşam için.</span>
+    </a>
+    <a class="card" href="./zarif/">
+      <span class="sw"><i style="background:#8C2F3D"></i><i style="background:#1C6B55"></i><i style="background:#C08A2E"></i></span>
+      <strong>Zarif</strong>
+      <span class="note">Dergi gibi: serif, ince çizgiler.</span>
+    </a>
+    <p class="hint">Her biri ayrı bir uygulama olarak kurulur. Veriler örnektir; gerçek bir sunucuya bağlı değildir.</p>
+  </main>
+</body>
+</html>

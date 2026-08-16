@@ -1,0 +1,23 @@
+{
+  "name": "Kitto",
+  "short_name": "Kitto",
+  "description": "Çocuğun dünyası, ailenin içinde.",
+  "start_url": "/kitto-preview/oyun/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F4F6FC",
+  "theme_color": "#FFFFFF",
+  "icons": [
+    {
+      "src": "/kitto-preview/oyun/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/kitto-preview/oyun/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
